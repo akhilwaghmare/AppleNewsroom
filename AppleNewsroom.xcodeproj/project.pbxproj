@@ -12,6 +12,7 @@
 		2504C61D22A55E1600560ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2504C61B22A55E1600560ADA /* Main.storyboard */; };
 		2504C61F22A55E1700560ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2504C61E22A55E1700560ADA /* Assets.xcassets */; };
 		2504C62222A55E1700560ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2504C62022A55E1700560ADA /* LaunchScreen.storyboard */; };
+		2504C62A22A55F5500560ADA /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504C62922A55F5500560ADA /* FeedListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2504C61E22A55E1700560ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2504C62122A55E1700560ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2504C62322A55E1700560ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2504C62922A55F5500560ADA /* FeedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2504C61E22A55E1700560ADA /* Assets.xcassets */,
 				2504C62022A55E1700560ADA /* LaunchScreen.storyboard */,
 				2504C62322A55E1700560ADA /* Info.plist */,
+				2504C62922A55F5500560ADA /* FeedListViewController.swift */,
 			);
 			path = AppleNewsroom;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2504C62A22A55F5500560ADA /* FeedListViewController.swift in Sources */,
 				2504C61A22A55E1600560ADA /* ViewController.swift in Sources */,
 				2504C61822A55E1600560ADA /* AppDelegate.swift in Sources */,
 			);
