@@ -9,6 +9,7 @@
 import UIKit
 import AWComponents
 import FeedKit
+import KINWebBrowser
 
 class FeedItemCell: UICollectionViewCell {
     
@@ -131,5 +132,9 @@ class FeedListViewController: UICollectionViewController, UICollectionViewDelega
         guard let delegate = self.delegate else { return }
         guard let entryUrl = feedEntries[indexPath.item].links?.first?.attributes?.href else { return }
         delegate.didSelectFeedUrl(entryUrl)
+        
+        if let detailVC = delegate as? KINWebBrowserViewController {
+            splitViewController?.showDetailViewController(detailVC, sender: nil)
+        }
     }
 }
