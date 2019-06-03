@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let feedListVC = FeedListViewController(collectionViewLayout: UICollectionViewFlowLayout())
         let webVC = KINWebBrowserViewController()
         webVC.loadURLString("https://apple.com")
+        feedListVC.delegate = webVC
         
         let splitVC = UISplitViewController()
         splitVC.viewControllers = [UINavigationController(rootViewController: feedListVC), webVC]

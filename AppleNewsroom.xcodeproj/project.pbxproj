@@ -13,6 +13,7 @@
 		2504C61F22A55E1700560ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2504C61E22A55E1700560ADA /* Assets.xcassets */; };
 		2504C62222A55E1700560ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2504C62022A55E1700560ADA /* LaunchScreen.storyboard */; };
 		2504C62A22A55F5500560ADA /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504C62922A55F5500560ADA /* FeedListViewController.swift */; };
+		2504C62C22A568FD00560ADA /* WebBrowserViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504C62B22A568FD00560ADA /* WebBrowserViewController+Extension.swift */; };
 		FD7F5DBDD62353232C0A9DD5 /* Pods_AppleNewsroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BB997FED6FC42137AB81B7 /* Pods_AppleNewsroom.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2504C62122A55E1700560ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2504C62322A55E1700560ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2504C62922A55F5500560ADA /* FeedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
+		2504C62B22A568FD00560ADA /* WebBrowserViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebBrowserViewController+Extension.swift"; sourceTree = "<group>"; };
 		53BB997FED6FC42137AB81B7 /* Pods_AppleNewsroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleNewsroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D40D1250EB34FC79D38736 /* Pods-AppleNewsroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleNewsroom.release.xcconfig"; path = "Target Support Files/Pods-AppleNewsroom/Pods-AppleNewsroom.release.xcconfig"; sourceTree = "<group>"; };
 		B712E62FA3A6DCB6B8D00E2A /* Pods-AppleNewsroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleNewsroom.debug.xcconfig"; path = "Target Support Files/Pods-AppleNewsroom/Pods-AppleNewsroom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				2504C62022A55E1700560ADA /* LaunchScreen.storyboard */,
 				2504C62322A55E1700560ADA /* Info.plist */,
 				2504C62922A55F5500560ADA /* FeedListViewController.swift */,
+				2504C62B22A568FD00560ADA /* WebBrowserViewController+Extension.swift */,
 			);
 			path = AppleNewsroom;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				B712E62FA3A6DCB6B8D00E2A /* Pods-AppleNewsroom.debug.xcconfig */,
 				85D40D1250EB34FC79D38736 /* Pods-AppleNewsroom.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -220,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2504C62C22A568FD00560ADA /* WebBrowserViewController+Extension.swift in Sources */,
 				2504C62A22A55F5500560ADA /* FeedListViewController.swift in Sources */,
 				2504C61A22A55E1600560ADA /* ViewController.swift in Sources */,
 				2504C61822A55E1600560ADA /* AppDelegate.swift in Sources */,
