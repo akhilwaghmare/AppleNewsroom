@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KINWebBrowser
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,9 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         let feedListVC = FeedListViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        let webVC = KINWebBrowserViewController()
+        webVC.loadURLString("https://apple.com")
         
         let splitVC = UISplitViewController()
-        splitVC.viewControllers = [UINavigationController(rootViewController: feedListVC), ViewController()]
+        splitVC.viewControllers = [UINavigationController(rootViewController: feedListVC), webVC]
         window?.rootViewController = splitVC
         
         return true
